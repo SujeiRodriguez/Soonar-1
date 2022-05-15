@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soonar</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/contacto.css">
+    <link href="http://fonts.cdnfonts.com/css/abang" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+    body{
+            background-image: url(https://www.ecologistasenaccion.org/wp-content/uploads/2019/09/tortuga.jpg);
+        }
+
+    </style>
+    
+</head>
+<body>
+<header>
+    <!-- <div class="baseLogo">
+        <img id="logoSoonar" src="./imagenes/logoSoonar.png" alt="Logotipo" name="logotipo" width="150"\>
+        <img id="mediaLuna" src="./imagenes/mediaLuna.png" alt="Logotipo" name="logo" width="260"\>
+        <a href="./index.html" >
+            <div class="logo">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            </div>
+        </a>
+    </div> -->
+
+    <header class="cabeza">
+        <div class="logo">
+            <a href="./index.html"><h1>Soonar</h1></a>
+        </div>
+            <nav>
+                <a href="./index.html">Inicio</a>
+                <a href="./mapa.html">Ecosistema</a>
+                <a href="./voluntariado.html">Voluntariado</a>
+            </nav>        
+    </header>
+
+<main>
+    <div class="leyenda">
+        <h1 class="h1title">QUIENES SOMOS</h1>
+        <hr>
+        <p>Soonar es una organización sin fines lucrativos, creada con el propósito de informar e incentivar 
+            a la población sobre el cuidado de las especies en conjunto con el mejoramiento del entorno de la 
+            flora y fauna en los océanos.</p>
+        <p>Mediante programas de recolección de pet y aluminio en las zonas mas afectadas por la contaminación, 
+          se busca la interacción  de la población, para concientizar de la grave afectación que causa a las especies 
+          que habitan en los océanos.</p>
+    </div>
+</main>
+
+<div class="contacto">
+
+    <div class="formulario">      
+      <h1>Formulario de contacto</h1>
+        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+
+          <form action="mailto:launchx00072@innovaccion.mx?subject=Gracias por creer en nosotros" method="post">       
+
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre<span class="obligatorio">*</span></label>
+                  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email<span class="obligatorio">*</span></label>
+                  <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="asunto" class="colocar_asunto">Asunto<span class="obligatorio">*</span></label>
+                  <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje<span class="obligatorio">*</span></label>                     
+                  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar">Enviar</button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            
+          </form>
+    </div>  
+  </div>
+
+
+
+<footer>
+
+
+    <section class="iconos">
+        <a href=""><i class="fa-brands fa-facebook-square"></i></a><br>
+        <a href=""><i class="fa-brands fa-instagram"></i></a><br>
+        <a href="./contacto.html"><i class="fa-solid fa-address-card"></i></a>
+    </section>
+
+</footer>
+</body>
+</html>

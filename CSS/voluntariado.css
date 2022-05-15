@@ -1,0 +1,110 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.60),
+    rgba(5, 7, 12, 0.60)),
+    url(https://www.portalambiental.com.mx/sites/default/files/media/2019/05/sargazo_20-05.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    /*background-position-y: -10em;*/
+}
+
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.contenedor {
+    max-width: 100%;
+    display: block;
+}
+
+.leyenda {
+    max-width: 60em;
+    margin-left: 12em;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 6em;
+}
+
+.leyenda h1{
+    font-size: 5em;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: .3em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.sec1{
+    width: 25em;
+    margin-top: 30em;
+    margin-left: 31.5em;
+    position: absolute;
+    display: flex;
+    padding: 1em;
+    gap: 1em;
+}
+
+.sec1 a{
+    color: #156576;
+    font-size: 1.2em;
+}
+.sec1 a:hover{
+    color:#D8C39D;
+    transform:scale(105%)
+}
+
+.foto{
+    width: 300px;
+    height: 350px;
+}
+
+.general{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.general .galeria{
+    margin-right: 20px;
+}

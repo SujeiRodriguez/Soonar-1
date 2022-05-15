@@ -1,0 +1,239 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+    background-image: url(../bk/6.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    /*background-position-y: -10em;*/   
+}
+
+/* Globales*/
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.leyenda {
+    max-width: 60em;
+    margin-left: 11em;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: justify;
+    background-color: black;
+    padding: 3em;
+    opacity: 75%;
+    border-radius: 1%;
+    margin-top: 5.5em;
+}
+
+.leyenda h1{
+    font-size: 5em;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: -.5em;
+}
+
+.contacto{  
+    width: 33em; 
+    height: auto;
+    margin: 8em auto;
+    border-radius: 1em;  
+    padding-top: 3em;
+    padding-bottom: 2em;  
+    background-color: #0e0e0e;
+    padding-left: 3em; 
+    opacity: 75%;
+    margin-top: 26em;
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #156576; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #080808; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #156576; 
+    border-color: #156576; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #156576; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #156576;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #faf8f9;
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #ffffff;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #fffefe; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #156576;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #156576;
+  }
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+    margin-top: -10em;
+}
+
+.iconos a{
+    font-size: 25px;
+    margin: 10px;
+    color: #fff;
+}
+
+button{
+  color: #fff;
+  font-weight: bold;
+}
+
+.logo{
+
+  display: inline-block;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 30%;
+}
+.logo a{
+  position: relative;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-weight:900;
+  letter-spacing: 1px;
+  font-size: 20px;
+  top: -30px;
+  left: 120px;
+}
+
+.logo h1{
+  font-size: 2.4em;
+}
+.cabeza{
+    padding-top: 3em;
+}

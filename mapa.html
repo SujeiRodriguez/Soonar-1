@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soonar</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/ecosistema.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header class="cabeza">
+        <div class="logo">
+            <a href="./index.html"><h1>Soonar</h1></a>
+        </div>
+            <nav>
+                <a href="./index.html">Inicio</a>
+                <a href="./mapa.html">Ecosistema</a>
+                <a href="./voluntariado.html">Voluntariado</a>
+            </nav>        
+    </header>
+
+<main>
+
+    <div class="section">
+        <h1 class="mapainterctivo">MAPA INTERACTIVO</h1>
+        <hr>
+
+        <iframe class="mapa" src="https://www.google.com/maps/d/embed?mid=1H536WEfpTIekhYqG0eRORQmKU8lehJRy&ehbc=2E312F"></iframe> 
+    </div>
+
+    <div class="section">
+        <h1 class="principalh1">¿Qué especie es?</h1>
+
+        <div class="info">
+            <p>Hay veces que cuando miras el oceano aparecen animales fantasticos, pero no sabes como se llaman. Es por eso que nuestro buscador de especies de dice cual es el nombre de ser peculiar que has observado.</p>
+
+            <p>Solo carga una imagen en la parte de abajo para descubrir de que especie se trata</p>
+        </div>        
+
+        <div class="center">
+            <div class="form-input">
+                <div class="preview">
+                    <img id="file-ip-1-preview" src="./imagenes/axolote.gif">				
+                </div>
+    
+                <p class="especieT" id="demo"></p>
+    
+                <label for="file-ip-1">Upload Image</label>
+                <input type="file" id="file-ip-1"/>
+                
+            </div>
+        </div>
+
+    </div>
+        
+    </div>
+        
+</main>
+
+
+
+<footer>
+
+    <div class="iconos">
+        <a href=""><i class="fa-brands fa-facebook-square"></i></a><br>
+        <a href=""><i class="fa-brands fa-instagram"></i></a><br>
+        <a href="./contacto.html"><i class="fa-solid fa-address-card"></i></a>
+    </div>       
+
+</footer>
+
+<script src="./js/especies.js"></script>
+</body>
+</html>
